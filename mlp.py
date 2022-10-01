@@ -1,3 +1,13 @@
+"""
+This file is a implementation of Multilayer Perceptron (MLP) based on Neural Solvers framework: https://github.com/Photon-AI-Research/NeuralSolvers repository.
+Core Developers:
+Patrick Stiller (HZDR)
+Maksim Zhdanov (HZDR)
+Jeyhun Rustamov (HZDR)
+Raj Dhansukhbhai Sutariya (HZDR)
+P. Stiller, F. Bethke, M. Böhme, R. Pausch, S. Torge, A. Debus, J. Vorberger, M.Bussmann, N. Hoffmann: Large-scale Neural Solvers for Partial Differential Equations (2020).
+"""
+
 import torch
 import torch.nn as nn
 
