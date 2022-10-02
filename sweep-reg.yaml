@@ -1,0 +1,27 @@
+program: LiFe-net_regularised.py
+method: grid
+metric:
+  goal: minimize
+  name: Validation Loss
+parameters:
+  normalize:
+    value: 1000
+  alpha:
+    value: 0.1
+  batch_size:
+    value: 4096
+  lr:
+    value: 1e-3
+  input_size:
+    value: 6
+  output_size:
+    value: 1
+  hidden_size:
+    values: [10,20,50,100]
+  num_hidden:
+    values: [2,4,6,8]
+  epochs:
+    value: 100
+
+
+
