@@ -28,7 +28,9 @@ matplotlib>=3.1.1
 ```
 model.load_state_dict(torch.load(PATH))
 ```
-## 
+## Plots included in the paper
+See ```evaluation_plots.ipynb``` Jupyter Notebook
+
 ## How to do hyperparameter optimization
 
 See documentations of Weights and Biases library:
