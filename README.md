@@ -1,5 +1,20 @@
 # LiFe-net: Data-driven Modelling of Time-dependent Temperatures and Charging Statistics Of Tesla’s LiFePo4 EV Battery
 
+## Requirements
+
+### Libaries
+```
+cuda 11.1
+python/3.7.4
+```
+
+### Python requirements
+```
+torch>=1.8.1
+numpy>=1.19.5
+matplotlib>=3.1.1
+```
+
 
 ## How to run
 ```python LiFe-net_baseline.py```
