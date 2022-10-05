@@ -24,11 +24,11 @@ matplotlib>=3.1.1
 ```python LiFe-net_t_stability.py```
 
 ## How to load pre-trained model
-
+### Load models from 'models' folder as such:
 ```
 model.load_state_dict(torch.load(PATH))
 ```
-
+## 
 ## How to do hyperparameter optimization
 
 See documentations of Weights and Biases library:
